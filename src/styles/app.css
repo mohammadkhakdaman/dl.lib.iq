@@ -1,0 +1,10 @@
+@import './components/_dialog.css';
+@import './components/_pagination.css';
+
+.text-normal {
+    font-size: 0.9rem;
+}
+
+.bg-gray-75 {
+    background-color: #f8f9fa;
+}

@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src/",
+        "paths": {
+            "@/*": ["./*"]
+        }
+    }
+}
+// 4Fta3afCFbsqqXnWAJ3k
+// 37.27.86.134

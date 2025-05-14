@@ -1,0 +1,19 @@
+<script>
+
+  const fetchData = async () => {
+    try {
+      const response = await fetch('/api/v1.0/BookSearch/BookSearch', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({"sort_by":1,"limit":[],"offset":1,"count":9,"sortType":1,"q":"","idx":["All"]})
+      });
+      const data = await response.json();
+      // ??????? ?? ???????
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
+  fetchData()
+</script>
